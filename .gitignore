@@ -1,0 +1,23 @@
+# Cadence Innovus Log & Command History Files
+innovus.log*
+innovus.cmd*
+genus.log*
+genus.cmd*
+*.log
+*.cmd
+
+# Binary Innovus Design Database Saves (Keeps git repo small & fast)
+design/*.enc
+design/*.enc.dat
+
+# Temporary Tool Directories & Run Artifacts
+.cadence/
+fv/
+*.bck
+*.v~
+*.tcl~
+*.sdc~
+
+# System / OS generated files
+.DS_Store
+Thumbs.db
